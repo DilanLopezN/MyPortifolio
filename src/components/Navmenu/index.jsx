@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 export function NavMenu() {
   return (
     <FlexContainer>
-      <NavLink to="/">
+      <NavLink to="/certifications">
         <NavContainer marginTop={60} height={120} width={120}>
           <div className="line2" />
           <ImgContainer>
@@ -13,7 +13,7 @@ export function NavMenu() {
         </NavContainer>
       </NavLink>
 
-      <NavLink to="/">
+      <NavLink to="/aboutme">
         <NavContainer height={120} width={120}>
           <ImgContainer>
             <AddressBook size={62} color="red" />
@@ -21,7 +21,7 @@ export function NavMenu() {
         </NavContainer>
       </NavLink>
 
-      <NavLink to="/">
+      <NavLink to="/curriculum">
         <NavContainer marginTop={60} height={120} width={120}>
           <div className="line" />
 

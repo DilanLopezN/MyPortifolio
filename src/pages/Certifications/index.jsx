@@ -1,3 +1,8 @@
+import { CertificationsContainer } from './styles'
 export function Certifications() {
-  return <h1>Certifications</h1>
+  return (
+    <CertificationsContainer>
+      <h1>Certifications</h1>
+    </CertificationsContainer>
+  )
 }
